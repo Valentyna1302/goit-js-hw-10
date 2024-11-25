@@ -32,6 +32,15 @@
   padding-bottom: 8px;
   padding-left: 16px;
   width: 272px;
+  color: #2e2f42;
+}
+
+.timer-container input:hover,
+.timer-container input:focus {
+  border-color: #000000;
+}
+.timer-container input:disabled {
+  background-color: #808080;
 }
 
 .timer-container button {
@@ -44,4 +53,14 @@
   font-weight: 500;
   font-size: 16px;
   color: #fff;
+}
+
+.timer-container button:hover,
+.timer-container button:focus {
+  background-color: #6c8cff;
+}
+
+.timer-container button:disabled {
+  background-color: #cfcfcf;
+  color: #989898;
 }
